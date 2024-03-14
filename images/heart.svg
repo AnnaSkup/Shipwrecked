@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="heart.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="1.5175781"
+     inkscape:cx="256"
+     inkscape:cy="202.95495"
+     inkscape:window-width="1662"
+     inkscape:window-height="1020"
+     inkscape:window-x="118"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="16"
+       spacingy="16"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000"
+       id="rect6"
+       width="529.7915"
+       height="530.4505"
+       x="-7.9073353"
+       y="-11.202059" />
+    <circle
+       style="fill:#ff0000"
+       id="path6"
+       cx="255.67053"
+       cy="255.67053"
+       r="239.85585" />
+    <g
+       id="g6">
+      <path
+         style="fill:#f4d7d7;stroke:none"
+         d="M 256.32947,142.99099 C 256.32947,35.583012 75.234743,29.38342 74.460746,162.10038 73.68675,294.81734 255.67053,481.0296 255.67053,481.0296 Z"
+         id="path4"
+         sodipodi:nodetypes="czcc" />
+      <path
+         style="fill:#ffaaaa;stroke:none"
+         d="m 254.98596,141.69627 c 0,-107.407981 181.09473,-113.607573 181.86872,19.10939 0.774,132.71696 -181.20978,318.92922 -181.20978,318.92922 z"
+         id="path5"
+         sodipodi:nodetypes="czcc" />
+    </g>
+  </g>
+</svg>

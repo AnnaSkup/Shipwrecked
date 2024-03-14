@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="food_fish_cooked.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="48.5625"
+     inkscape:cx="6.980695"
+     inkscape:cy="7.7117117"
+     inkscape:window-width="1662"
+     inkscape:window-height="967"
+     inkscape:window-x="176"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="2"
+       spacingy="2"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="4"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffeeaa;paint-order:markers fill stroke"
+       id="rect1"
+       width="16.288288"
+       height="16.205919"
+       x="-0.12355212"
+       y="-0.082368083" />
+    <g
+       id="g7"
+       transform="rotate(22.342657,6.7462234,11.576747)">
+      <path
+         style="fill:#b09e6c;fill-opacity:1;paint-order:markers fill stroke"
+         d="M 7.8992109,0.37129932 C 8.4031458,1.5839464 8.1200588,3.2657893 7.6735192,4.3099842 7.0085682,3.9417857 6.6835146,2.3759159 5.2127512,1.6380852 6.1517931,1.6282923 6.9438925,1.3500462 7.8992109,0.37129932 Z"
+         id="path6"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:#b09e6c;fill-opacity:1;paint-order:markers fill stroke"
+         d="m 6.093677,11.33555 2.3952446,0.0364 C 8.7219403,11.058909 8.930813,10.737819 8.9912677,10.367257 H 8.3578748 L 8.9912677,10.163409 C 8.7777099,9.2654956 8.4767877,8.4646537 8.0885008,7.7608837 6.5843237,9.3274251 8.2074136,8.0690864 7.6735192,8.2341083 Z"
+         id="path5"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         id="path1"
+         style="fill:#533b29;fill-opacity:1;paint-order:markers fill stroke"
+         d="m 7.2285156,2.5742188 c 0,0 0.2187369,2.6034186 -3.4042968,6.4648437 A 1.7915058,1.7915058 0 0 0 3.171875,10.419922 1.7915058,1.7915058 0 0 0 4.9628906,12.210938 1.7915058,1.7915058 0 0 0 6.5371094,11.265625 C 10.307513,6.2834603 7.2285156,2.5742188 7.2285156,2.5742188 Z" />
+      <path
+         id="path4"
+         style="fill:#b09e6c;fill-opacity:1;paint-order:markers fill stroke"
+         d="M 4.2148438,10.046875 3.1855469,10.623047 A 1.7915058,1.7915058 0 0 0 3.25,10.939453 Z" />
+      <circle
+         style="fill:#b09e6c;fill-opacity:1;paint-order:markers fill stroke"
+         id="path3"
+         cx="5.3583589"
+         cy="11.291867"
+         r="0.15288796" />
+      <path
+         style="fill:#b09e6c;fill-opacity:1;paint-order:markers fill stroke"
+         d="M 4.6084797,8.7364544 C 4.1518137,7.9329314 4.3409703,7.2177181 4.4555918,6.6833877 4.8031854,6.3092256 4.9797544,6.2875977 5.5258074,6.3412099 5.1545326,7.0646169 4.8758558,8.0183782 4.6084797,8.7364544 Z"
+         id="path7"
+         sodipodi:nodetypes="cccc" />
+    </g>
+  </g>
+</svg>

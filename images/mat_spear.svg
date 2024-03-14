@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="mat_spear.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="64"
+     inkscape:cx="6.78125"
+     inkscape:cy="2.4296875"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="2"
+       spacingy="2"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="4"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#cccccc;paint-order:markers fill stroke;fill-opacity:1"
+       id="rect1"
+       width="16.329472"
+       height="16.267696"
+       x="-0.14414415"
+       y="-0.082368083" />
+    <path
+       style="fill:#000000;fill-opacity:1;paint-order:markers fill stroke"
+       d="m 0.5625,14.78125 -0.0625,0.5625 0.34375,0.21875 0.5,-0.25 6.46875,-7.5625 6.40625,-6 0.65625,-1.46875 -1.5,1 L 7.21875,7.25 Z"
+       id="path13" />
+    <path
+       id="path14"
+       style="fill:#404040;fill-opacity:1;paint-order:markers fill stroke"
+       d="M 14.875 0.28125 L 13.378906 1.2792969 L 13.382812 1.2851562 L 13.382812 1.53125 L 13.632812 1.4375 L 13.59375 1.6640625 L 13.621094 1.734375 L 13.695312 1.71875 L 13.898438 1.59375 L 13.851562 1.8125 L 13.792969 1.9140625 L 13.917969 1.8789062 L 14.089844 1.765625 L 14.220703 1.7480469 L 14.875 0.28125 z " />
+  </g>
+</svg>

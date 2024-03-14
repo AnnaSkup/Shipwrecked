@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title>Shipwrecked</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+span {
+	color: #dd2200;
+    margin: 0 auto;
+    display: table;
+    }
+</style>
+</head>
+<body style="background-color:black;">
+<span style="    
+	color: red;
+    font-size: 100px;
+    margin-top: 5%;">Shipwrecked</span>
+	<span style="    
+    font-size: 30px;
+    margin-top: 2%;" class="died">You died</span>
+	<span style="    
+    font-size: 20px;
+	padding: 0 50px"
+	class="comment"
+	></span>
+	<div style="
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+">
+		<a href="game.html" class="button"
+		style="
+    background-color: gray;
+    padding: 5px;
+    border: 3px #ddd solid;
+    border-radius: 10px;
+	text-decoration: none;
+	color: white;
+"
+		>Start the Game</a>
+	</div>
+	<script>
+	function GetURLParameter(sParam)
+		{
+		var sPageURL = window.location.search.substring(1);
+		var sURLVariables = sPageURL.split('&');
+		for (var i = 0; i < sURLVariables.length; i++) 
+		{
+			var sParameterName = sURLVariables[i].split('=');
+			if (sParameterName[0] == sParam) 
+			{
+				return sParameterName[1];
+			}
+		}
+	}
+	
+	
+	const urlComment = decodeURIComponent(GetURLParameter('comment'));
+	const commentElement = document.getElementsByClassName("comment")[0];
+	commentElement.textContent = urlComment;
+	const urlColor = decodeURIComponent(GetURLParameter('color'));
+	commentElement.style.color = urlColor;
+	
+	const urlDied = decodeURIComponent(GetURLParameter('dead'));
+	
+	if(urlDied == "false"){
+		const diedElement = document.getElementsByClassName("died")[0];
+		diedElement.style.display = "none";
+	}
+	</script>
+</body>
+</html>

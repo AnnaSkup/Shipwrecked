@@ -1,0 +1,387 @@
+body {
+  background-color: lightblue;
+  margin:0px;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+}
+
+body.gamebody{
+	display:flex;
+	flex-flow:column;
+}
+
+.toolbar{
+	background-color: #aa3311;
+	width: 100%;
+	height: 50px;
+	font-size:25px;
+	line-height:50px;
+}
+
+.toolbar span{
+	margin-left:15px;
+	
+}
+
+.timecontrols{
+	display: inline-flex;
+	float: right;
+}
+
+.timecontrols div{
+	width:40px;
+	cursor: pointer;
+	margin-top: 5px;
+    margin-right: 10px;
+}
+
+.timecontrols div img{
+	width:100%;
+}
+
+.timecontrols div[speeded='fast']{
+	background-color:red;
+}
+.timecontrols div[speeded='fastest']{
+	background-color:white;
+}
+
+
+.resizerVert{
+	background-color: black;
+	width: 100%;
+	height: 10px;
+	cursor:n-resize;
+}
+
+.upper{
+	background-color: #8f8888;
+	width: 100%;	
+	height: 200px;
+	overflow-x: hidden;
+	overflow-y:	hidden;
+	display:flex;
+}
+
+.upper .left{
+	background-color: #8f8888;
+	position: relative;
+}
+.upper .startRecipeButton{
+	position: absolute;
+	left:5%;
+	bottom:15px;
+	cursor:not-allowed;
+	background-color: gray;
+	border: 2px solid #555;
+	color: #555;
+	border-radius: 5px;
+	padding: 2px 5px;
+	user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+	pointer-events: none;
+}
+
+.upper .startRecipeButton.active{
+	cursor:pointer;
+	color: #fff;
+	border-color: white;
+	pointer-events: all;
+}
+
+.upper .portrait{
+	height: 100%;
+	user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.upper .cardTitle{
+	height:20px;
+}
+.upper .recipeDesc{
+	overflow-y:auto;
+	height: calc(100% - 50px)
+}
+.upper .cardAttr{
+	height: 30px;
+}
+
+.upper .mainCardSpace{
+	border: 2px solid black;
+	background-color: rgba(0,0,0,0.2);
+    width: 90px;
+    height: 90px;
+	margin-left:30px;
+	margin-top:30px;
+	padding: 5px;
+}
+
+.upper .mainCardSpace img{
+	width: 100%;
+	cursor: pointer;
+}
+
+.upper .mainCardSpace.hidden {
+	display:none;
+}
+
+.upper .additionalSpaces{
+	display: flex;
+	flex-flow: row;
+}
+
+.upper .additionalSpaces div{
+	border: 2px solid black;
+	background-color: rgba(0,0,0,0.2);
+    width: 90px;
+    height: 90px;
+	margin-left:30px;
+	margin-top:30px;
+	padding: 5px;
+}
+
+.upper .additionalSpaces div img{
+	width: 100%;
+	cursor: pointer;
+}
+.upper .additionalSpaces.hidden {
+	display:none;
+}
+
+.upper .collectCards.hidden {
+	display: none;
+}
+.upper .collectCards img{
+	width: 100px;
+	margin-left: 5px;
+}
+
+.lower{
+	width: 100%;
+	height: calc(100% - 260px);
+	display: flex;
+    flex-basis: auto;
+	overflow:hidden;
+}
+
+.lower .cardContainer{
+	height: 100px;
+	width: 100px;
+	padding: 5px;
+	cursor: pointer;
+	position: relative;
+}
+
+.lower .cardContainer .timer{
+	color: white;
+	background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.lower .cardContainer .counter{
+    color: white;
+    height: 20px;
+    margin-top: -100px;
+    position: relative;
+}
+.lower .cardContainer .counter span{
+	background-color:rgba(0,0,0,0.5);
+	padding: 0px 2px;
+}
+
+.lower .small .cardContainer {
+	height: 30px;
+	width: 30px;
+	padding: 2px;
+}
+
+.lower .small .cardContainer .counter{
+    color: white;
+    height: 5px;
+    margin-top: -30px;
+    position: relative;
+    font-size: 10px;
+}
+
+.lower .cardContainer img{
+	height: 100%;
+}
+
+
+.resizerHor{
+	background-color: black;
+	width: 10px;
+	height: 100%;
+	cursor:w-resize;
+}
+
+.lower .left{
+	background-color: #555;
+	width:calc(50% - 5px);
+}
+.lower .left .cardCont{
+	display:flex;
+	flex-wrap:wrap;
+	overflow-y:auto;
+	height:calc(100% - 20px);
+	align-content: flex-start;
+}
+.lower .left .leftToolbar{
+	height: 20px;
+	background-color:#666;
+}
+
+.lower .left .leftToolbar .toolbarBtn{
+	margin-top:2px;
+	margin-right: 5px;
+	float:right;
+}
+
+.lower .right{
+	background-color: #aaa;
+	height:100%;
+	width:calc(50% - 5px);
+	overflow-y:auto;
+}
+
+.lower .right .actionContainer{
+	background-color: #ddd;
+	padding: 5px;
+	cursor: pointer;
+	margin-bottom:5px;
+}
+.lower .right .actionContainer.isend{
+	background-color: #fda;
+}
+.lower .right .actionContainer .storedCards {
+	display: inline;
+	float:right;
+}
+.lower .right .actionContainer .storedCards img{
+	width: 16px;
+	margin-left:2px;
+}
+
+.lower .right .actionContainer .timer{
+	width: 100%;
+    height: 20px;
+    background-color: #555;
+}
+.lower .right .actionContainer .timer .fill{
+    height: 100%;
+    background-color: white;
+	/*transition: width 0.1s linear;*/
+	/*animation-name: fillanim;
+	animation-timing-function: linear;*/
+}
+@keyframes fillanim {
+  from {width: 0%;}
+  to {width: 100%;}
+}
+
+.right .actionContainer.isend .timer{
+	display: none;
+}
+
+.right .actionContainer .timerText{
+	margin-top: -18px;
+    display: block;
+    margin-left: 5px;
+}
+.right .actionContainer.isend .timerText{
+	display:none;
+}
+
+
+
+.right .actionContainer.isend .collect{
+	display: table;
+	cursor: pointer;
+    color: #fff;
+    border-color: white;
+    pointer-events: all;
+	border: 2px solid black;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 5px;
+	padding: 2px 5px;
+	user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.right .actionContainer .collect{
+	display: none;
+}
+
+
+
+
+
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #aaa #292929;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #292929;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 0px;
+    border: 10px dotted #aaa;
+  }
+  
+  .popupCont{
+	  position:absolute;
+	  right:0px;
+	  top:0px;
+	  height: 100%;
+  }
+  .popup{
+	display: inline-block;
+	padding:5px;
+	margin:20px;
+    width: 300px;
+    background-color: #bba;
+	opacity: 1;
+	transition: opacity 1s;
+  }
+  .popup.disappear{
+	  opacity:0;
+  }
+  
+  .popup img.main{
+	  width: 50px;
+	  height: 50px;
+	  float: inline-end;
+  }
+  .popup span.textTitle{
+	  float:left;
+	  height:50px;
+	  width:250px;
+  }
+  .popup span.textDesc{
+	  float:left;
+  }
+  
+.clearfix:before,
+.clearfix:after     { content: ''; display: table }
+.clearfix:after     { clear: both }

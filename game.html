@@ -1,0 +1,68 @@
+<html>
+<head>
+<script></script>
+ <title>Shipwrecked</title>
+ <script src="functionDefinitions.js"></script>
+ <script src="decks.js"></script>
+ <script src="textFile.js"></script> 
+ <script src="resize.js"></script>
+ <script src="recipes.js"></script>  
+ <script src="cards.js"></script> 
+ <script src="actions.js"></script> 
+ <script src="cardsUI.js"></script> 
+ <script src="recipesUI.js"></script> 
+ <script src="popupsUI.js"></script> 
+ <script src="actionsUI.js"></script> 
+ <link rel="stylesheet" href="style.css">
+</head>
+<body 
+class="gamebody"
+onmousemove="resizerMouseMove(event); resizerHorizontalMouseMove(event);" onmouseup="resizerTop(false); resizeHorizontal(false);" onkeypress="onKeyPress(event);">
+<div class="toolbar">
+	<span>Shipwrecked</span>
+	<div class="timecontrols">
+		<div class="pause" paused="false" onclick="clickPauseButton(this);">
+			<img src="images\stop.svg">
+		</div>
+		<div class="faster" speeded="false" onclick="clickSpeedButton(this);">
+			<img src="images\gofaster.svg">
+		</div>
+	</div>
+</div>
+<div class="upper">
+	<div class="left" style="width: 60%;">
+	<span class="recipeTitle">Recipe title</span>
+    <div style="display: flex;flex-flow: row;">
+		<div class="mainCardSpace" ondblclick="dbClickMainSlot()"></div>
+		<div class="collectCards"></div>
+		<div class="additionalSpaces"></div>
+	</div>
+	<div class="startRecipeButton"> Start </div>
+	</div>	
+	<div style="width: 40%;">
+		<div class="cardTitle"></div>
+		<div class="recipeDesc"></div>
+		<div class="cardAttr"></div>
+	</div>
+</div>
+<div class="resizerVert" onmousedown="resizerTop(true)" ></div>
+<div class="lower">
+	<div class="left">
+		<div class="leftToolbar">
+			<img class="toolbarBtn" src="images\iconSmallSquares.svg" onclick="toggleCardSize('small')">
+			<img class="toolbarBtn" src="images\iconBigSquares.svg" onclick="toggleCardSize('big')">
+		</div>
+		<div class="cardCont big"></div>
+	</div>
+	<div class="resizerHor" onmousedown="resizeHorizontal(true)"></div>
+	<div class="right"></div>
+	
+</div>
+<div class="popupCont"></div>
+<script>
+	checkSize();
+	drawAllCards();
+	intervalFunction(delay);
+</script>
+</body>
+</html>
