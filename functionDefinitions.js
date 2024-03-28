@@ -13,7 +13,7 @@ const formatFloat = (f) => {
 	}
 }
 const longestFoodIds = new Set(['critterCooked']);
-const longFoodIds = new Set(["crabCooked","critter"]);
+const longFoodIds = new Set(["crabCooked","critter","fishCooked"]);
 const foodIds = new Set(["fish","crab","berries","preserved",]);
 
 const allFoodIds = new Set([...foodIds, ...longFoodIds, ...longestFoodIds])

@@ -43,11 +43,11 @@ class Action{
 const hungerFunction = (cardList)=>{
 			cardList.splice(0,cardList.length);
 			
-			let food = grabCardFromStore((card) => longestFoodIds.has(card.type));
-			let time = "longest";
+			let food = grabCardFromStore((card) => longFoodIds.has(card.type));
+			let time = "long";
 			if(food == null){
-				time = "long";
-				food = grabCardFromStore((card) => longFoodIds.has(card.type));
+				time = "longest";
+				food = grabCardFromStore((card) => longestFoodIds.has(card.type));
 				if(food == null){
 					food = grabCardFromStore((card) => foodIds.has(card.type));	
 					time = "normal";
@@ -420,7 +420,19 @@ const actionData = {
 			cardList.push(new Card("critterCooked"))
 			return "cookEnd";
 		}
-	},"healHealingHerb":{
+	},"cookFish":{
+		time:30000,
+		title:"Cooking the fish",
+		description:"The fins burn a bit, but the meat inside cooks.",
+		nextStateFunction:(cardList)=>{
+			const foodIdx = cardList.findIndex(x => x.type == "fish");
+			cardList.splice(foodIdx,1);
+			cardList[0].timePassed += 30000;
+			cardList.push(new Card("fishCooked"))
+			return "cookEnd";
+		}
+	},
+	"healHealingHerb":{
 		time:60000,
 		title:"Applying blue flowered herb to my aliment",
 		description:"At first, it hurts. Then there is numbness.",

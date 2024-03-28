@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="acp_food.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="4"
+     inkscape:cx="-44.375"
+     inkscape:cy="12.875"
+     inkscape:window-width="1662"
+     inkscape:window-height="955"
+     inkscape:window-x="352"
+     inkscape:window-y="63"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="2"
+       spacingy="2"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="4"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="5.8,4.28"
+       end_point="6,13.113611"
+       center_point="5.9,8.6968055"
+       id="path-effect5"
+       is_visible="true"
+       lpeversion="1.2"
+       lpesatellites=""
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="true"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false"
+       link_styles="true" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#fff900;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect5"
+       width="15.382239"
+       height="15.402831"
+       x="0.37065637"
+       y="0.2882883" />
+    <path
+       id="rect1"
+       style="fill:#000000;stroke-width:0.03;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       d="M 0.021484375 0.021484375 L 0.021484375 16.021484 L 16.021484 16.021484 L 16.021484 0.021484375 L 0.021484375 0.021484375 z M 0.5 0.5 L 15.5 0.5 L 15.5 15.5 L 0.5 15.5 L 0.5 0.5 z M 7.9785156 0.96875 A 7 7 0 0 0 0.97851562 7.96875 A 7 7 0 0 0 7.9785156 14.96875 A 7 7 0 0 0 14.978516 7.96875 A 7 7 0 0 0 7.9785156 0.96875 z M 8 1.5 A 6.5 6.5 0 0 1 14.5 8 A 6.5 6.5 0 0 1 8 14.5 A 6.5 6.5 0 0 1 1.5 8 A 6.5 6.5 0 0 1 8 1.5 z " />
+    <path
+       id="path3"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 8 0.18554688 L 8 1.2148438 L 8 0.18554688 z M 0.30078125 8 L 1.2285156 8 L 0.30078125 8 z M 14.695312 8 L 15.621094 8 L 14.695312 8 z M 8 14.722656 L 8 15.751953 L 8 14.722656 z " />
+    <g
+       id="g11"
+       transform="rotate(-45,7.1241384,8.2492178)">
+      <path
+         id="path9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         d="m 3.9882812,5.2363281 c -0.010085,1.4717544 1.6722354,3.9851248 2.0566407,4.2207031 0.3810486,0.2335219 0.9365249,0.3141024 1.9472656,0.3320313 0.00897,-1.483e-4 0.016489,1.579e-4 0.025391,0 C 9.0283317,9.7711336 9.5837942,9.6905531 9.9648438,9.4570312 10.349249,9.2214529 12.023412,6.8214159 12.021484,5.2363281 12.019556,3.6512403 9.411313,3.8822632 8,3.8710938 6.588687,3.8599243 3.9983665,3.7645737 3.9882812,5.2363281 Z M 8,4.2578125 c 1.7077,-0.033116 3.484308,0.1158056 3.484378,0.5 C 11.484449,5.1420069 10.613731,5.3787264 8.00977,5.359375 5.4058091,5.3400236 4.5271153,5.2098378 4.5332031,4.75 4.5393495,4.2882235 6.2923,4.2909289 8,4.2578125 Z"
+         sodipodi:nodetypes="zscsszzzzzzcz" />
+      <ellipse
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path11"
+         cx="8"
+         cy="4.71875"
+         rx="1"
+         ry="0.1484375" />
+      <path
+         id="path10"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         d="m 8.71875,9.640625 -1.4375,0.00781 v 2.984374 c 0,0 -1.3839652,0.409172 -0.609375,1.21875 0.6320438,0.660594 1.1577108,-0.214098 1.3300781,-0.558593 0.1764077,0.349793 0.6989596,1.206325 1.3261719,0.550781 C 10.102715,13.034172 8.71875,12.625 8.71875,12.625 Z"
+         sodipodi:nodetypes="cccscscc" />
+    </g>
+  </g>
+</svg>

@@ -232,6 +232,28 @@ const ascentionFunc = function(){
 	return a && b && c && d;
 }
 
+const ascentionFuncHint = function(){
+	if(mainSlot == null || additionalSlots.length < 2) return false;
+	let typeA = "altar";
+	let typeB = "blood";
+	let a = mainSlot.type == typeA || additionalSlots[0].type == typeA || additionalSlots[1].type == typeA;
+	let b = mainSlot.type == typeB || additionalSlots[0].type == typeB || additionalSlots[1].type == typeB;
+	let titles = new Set(["title1","title2","title3"]);
+	let c = titles.has(mainSlot.type) || titles.has(additionalSlots[0].type) || titles.has(additionalSlots[1].type);
+	return a && b && c;
+}
+
+const ascentionFuncHintWrong = function(){
+	if(mainSlot == null || additionalSlots.length < 3) return false;
+	let typeA = "altar";
+	let typeB = "blood";
+	let a = mainSlot.type == typeA || additionalSlots[0].type == typeA || additionalSlots[1].type == typeA;
+	let b = mainSlot.type == typeB || additionalSlots[0].type == typeB || additionalSlots[1].type == typeB;
+	let titles = new Set(["title1","title2","title3"]);
+	let c = titles.has(mainSlot.type) || titles.has(additionalSlots[0].type) || titles.has(additionalSlots[1].type);
+	return a && b && c;
+}
+
 const riteFoodFunc = function(){
 	if(mainSlot == null || additionalSlots.length < 2) return false;
 	let typeA = "altar";
@@ -330,6 +352,7 @@ const allRecipes = {
 	"campfireRefresh":new Recipe("campfireRefresh","Add fuel to the fire","I can supply my campfire, making it last a little bit longer",twoElemFunc("campfire","stick"),()=>"campfireRefresh",false,1),
 	"cookCrab":new Recipe("cookCrab","Cook a crab","I don't even have to pry its slimy meat out of its shell.",twoElemFunc("campfire","crab"),()=>"cookCrab",false,1),
 	"cookCritter":new Recipe("cookCritter","Cook a critter","This animal is peculiar, but nothing tastes worse when cooked.",twoElemFunc("campfire","critter"),()=>"cookCritter",false,1),
+	"cookFish":new Recipe("cookCritter","Cook a fish","It is much easier to pry the fishbones out, when it is tender.",twoElemFunc("campfire","fish"),()=>"cookFish",false,1),
 	//altar
 	"altarStart": new Recipe("altarStart","Search the myserious altar","This place is creepy and unsettling. What can I hope to accomplish here?",singleElemFunc("altarStart"),()=>"altarStart",false,0),
 	
@@ -349,9 +372,11 @@ const allRecipes = {
 	
 	//occult
 	
-	"riteFood": new Recipe("riteFood","Sacrifice food","I don't think this food item is good enough for the response. But maybe it is good enough for something else",riteFoodFunc,()=>"riteFood",false,3),
-	"riteFoodGood": new Recipe("riteFoodGood","Sacrifice food","This dish would suffice for the response. I need a title for a proper response. Still, maybe something will respond without a title.",threeElemAnyOrderFunc("altar","blood","critterCooked"),()=>"riteFood",false,3),
 	"riteAscention": new Recipe("riteAscention","Rite of Ascention","I have everything I need. I don't hope, I am certain",ascentionFunc,()=>"riteAscention",false,3),
+	"riteGuidanceTitleWrongFood": new Recipe("riteGuidanceTitleWrongFood","Unsuitable offering","I have the offering, but it's not what I should bring. I need to hunt for a creature that lives in this island, and then produce a pleasant smell for Th'shchin.",ascentionFuncHintWrong,()=>"riteGuidance",false,3),
+	"riteFood": new Recipe("riteFood","Sacrifice food","I don't think this food item is good enough for the response. But maybe it is good enough for something else",riteFoodFunc,()=>"riteFood",false,3),
+	"riteGuidanceTitle": new Recipe("riteGuidanceTitle","Sacrifice blood... and?","A title alone is not enough. I also need a suitable offering.",ascentionFuncHint,()=>"riteGuidance",false,3),
+	"riteFoodGood": new Recipe("riteFoodGood","Sacrifice food","This dish would suffice for the response. Still, I need a title. Maybe something will respond without it?",threeElemAnyOrderFunc("altar","blood","critterCooked"),()=>"riteFood",false,3),
 	"riteGuidance": new Recipe("riteGuidance","Sacrifice only my blood","All sacrifices require blood. I think. I can add something else.",twoElemFunc("altar","blood"),()=>"riteGuidance",false,3),
 	"getTitle3": new Recipe("getTitle3","Reach towards the Sea Monster","Maybe I could connect with it.",twoElemAnyOrderFunc("unity","distanceMonster"),()=>"getTitle3",false,1),
 	"getTitle2": new Recipe("getTitle2","Reach towards the amulet","This amulet must be important. Maybe it can guide me.",twoElemAnyOrderFunc("unity","amulet"),()=>"getTitle2",false,1),

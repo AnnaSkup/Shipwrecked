@@ -53,12 +53,6 @@ const cardInitDataDict = {
 		desc:"This is the city I saw in my dreams. Ten golden towers rising to the sky. Streets cobbled with amber. Ten kings ruling. I have to find it.",
 		expiryTime: 20000
 	},
-	"fish":{
-		img:"food_fish.svg",
-		title:"Raw fish",
-		desc:"This critter was swimming not that long ago. Now it's mine to eat.",
-		expiryTime: 180000
-	},
 	"startShip":{
 		img:"startship.svg",
 		title:"My voyage",
@@ -213,7 +207,17 @@ const cardInitDataDict = {
 	},"critterCooked":{
 		img:"food_critter_cooked.svg",
 		title:"Cooked Critter",
-		desc:"This cooked meal gives me some semblance of normalcy. It's been a long time since I've been sated.",
+		desc:"This cooked meal gives me some semblance of normalcy. It's been a long time since I've been sated. It emits a pleasant aroma.",
+		expiryTime: 320000
+	},	"fish":{
+		img:"food_fish.svg",
+		title:"Raw fish",
+		desc:"This critter was swimming not that long ago. Now it's mine to eat.",
+		expiryTime: 180000
+	},"fishCooked":{
+		img:"food_fish_cooked2.svg",
+		title:"Cooked fish",
+		desc:"I took out as many fishbones as I could. The pale meat awaits my mouth.",
 		expiryTime: 320000
 	},
 	
